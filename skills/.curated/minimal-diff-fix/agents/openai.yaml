@@ -1,0 +1,4 @@
+interface:
+  display_name: "最小改动修复"
+  short_description: "只修当前阻断，避免范围扩张与顺手重构"
+  default_prompt: "使用 $minimal-diff-fix 先锁定直接阻断链，只做最小 diff 修复，不顺手加 fallback、重构或测试基建。"
