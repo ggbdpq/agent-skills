@@ -15,6 +15,7 @@ npx skills add ggbdpq/agent-skills
 ```bash
 npx skills add https://github.com/ggbdpq/agent-skills --skill minimal-diff-fix
 npx skills add https://github.com/ggbdpq/agent-skills --skill tech-writer
+npx skills add https://github.com/ggbdpq/agent-skills --skill mentor-me
 ```
 
 安装完成后，重启你的 agent 工具以加载新 skill。
@@ -31,6 +32,7 @@ skills/
 
 - `minimal-diff-fix`：在尽量不扩散改动面的前提下定位并修复局部问题，适用于小范围 bugfix 和回归修复。
 - `tech-writer`：翻译英文技术文档或把中文技术文档打磨成发布级终稿，适用于技术文档英译中、终稿化和发布前质检。
+- `mentor-me`：像导师带学徒一样循序渐进把一个概念从零讲到能上手，结合用户当下项目举例，适用于想学懂某个概念或需要通俗讲解的场景。
 
 ## 维护原则
 
